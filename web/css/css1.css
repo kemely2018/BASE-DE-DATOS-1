@@ -1,0 +1,239 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	background-image: url(../image/fondo.jpg);
+	background-size: cover;
+        
+}
+
+/* Mostrar detalle venta */
+
+#tablaRegresar{
+    margin: auto;
+    
+}
+
+#frmMostrarDetalleVenta{
+    background-color:  #6d75fc ;
+    opacity: 0.8;
+}
+
+#tablaMostrarDetalleVenta{
+    margin: auto;
+    width: 90%;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+#tablaMostrarDetalleVenta th{
+    border: 2px solid #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+#tablaMostrarDetalleVenta td{
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+#tablaMostrarDetalleVenta div{
+    text-align: right;
+}
+
+.TituloDV{
+    background-color: whitesmoke;
+}
+
+.FilaEnBlanco{
+    background-color: #CCCCCD;
+}
+
+.Contenido{
+    background-color: #FFFFFF;
+}
+
+#frmMostrarDatosCliente{
+    background-color: blue;
+    height: 100px;
+    opacity: 0.9;
+    color: white;
+}
+
+#tablaMostrarDatosCliente{
+    margin: auto;
+}
+
+
+/* Modificar usuario */
+
+#frmModificarUsuario{
+        background-color:  #444ddc ;
+    opacity: 0.8;
+}
+
+#tablaModificarUsuario{
+    margin: auto;
+}
+
+.Enlace{
+    font-size: 14px;
+    color: #D11B03;
+}
+
+#btnGuardar{
+        background-color: none;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid black;
+    font-size: 16px;
+}
+#btnCancelar{
+        background-color: none;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid black;
+    font-size: 16px;
+}
+#btnModificar{
+        background-color: none;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+/* Modificar contraseña del usuario */
+
+#frmModificarClave{
+        background-color:  #444ddc ;
+    opacity: 0.8;
+}
+
+#tablaModificarClave{
+    margin: auto;
+}
+
+
+/* Añadir a carrito */
+
+#frmAnadirCarrito{
+        background-color:  #444ddc ;
+    opacity: 0.8;
+}
+
+#tablaAnadirCarrito{
+    margin: auto;
+}
+
+
+/* Registrar venta */
+
+#frmRegistrarVenta{
+    background-color: #282fa6;
+    opacity: 0.8;
+}
+
+#tablaRegistrarVenta{
+    margin: auto;
+    width: 85%;
+    border: 2px solid #000000;
+    border-collapse: collapse;
+}
+
+#tablaRegistrarVenta th{
+    border: 2px solid #000000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#tablaRegistrarVenta td{
+    border: 2px solid #000000;
+    text-align: center;
+}
+
+#tablaRegistrarVenta div{
+    text-align: right;
+}
+
+#btnRegistrarVenta{
+    background-color: white;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid black;
+    font-size: 16px;
+    transition: background 300ms;
+}
+
+:link{
+        background-color: white;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border: 1px solid black;
+    font-size: 16px;
+    transition: background 300ms;
+}
+
+/* Modificar CP */
+
+#frmModificarCP{
+    background-color:  #6d75fc ;
+    opacity: 0.7;
+}
+
+#tablaModificarCP{
+    margin: auto;
+}
+
+
+/* Modificar MP */
+
+#frmModificarMP{
+    background-color:  #6d75fc ;
+    opacity: 0.7;
+}
+
+#tablaModificarMP{
+    margin: auto;
+}
+
+
+/* Modificar producto */
+
+#frmModificarProd{
+    background-color:  #6d75fc ;
+    opacity: 0.7;
+}
+
+#tablaModificarProd{
+    margin: auto;
+}
+
+.mensaje1{
+    color: white;
+}
+.respuesta{
+    color: white;
+}
+
+
+
+

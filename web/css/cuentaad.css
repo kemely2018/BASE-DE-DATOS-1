@@ -1,0 +1,86 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+	background-image: url(../image/fondo.jpg);
+	background-size: cover;
+        
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    background:#222C78;
+}
+
+.container-header{
+    top: 0;
+    width: 100%;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+   
+}
+
+.logo-title{
+    display: flex;
+
+}
+
+
+.logo-title img{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.logo-title h4{
+    color: white;
+    font-weight: 100;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+#frmAdministrador{
+	margin: 50px auto;
+	width: 800px;
+}
+#frmUsuarioVender{
+    	margin: 50px auto;
+	width: 800px;
+}
+table{
+	background-color: white;
+	text-align: center;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td{
+	padding: 20px;
+}
+
+thead{
+	background-color: #246355;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+}
+
+tr:nth-child(even){
+	background-color:  #444ddc ;
+}
+
+tr:hover td{
+	background-color: turquoise;
+	color: white;
+}
+
+a{
+    background-color: none;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid black;
+    font-size: 16px;
+}
